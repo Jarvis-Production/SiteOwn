@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>JarvisProduction — Кинематографичное продакшн-агентство</title>
+	<meta name="description" content="JarvisProduction — продакшн-компания с вдохновением от технологий Тони Старка. Кинематографичные ролики, VFX, брендинг и интерактив." />
+	<link rel="icon" type="image/svg+xml" href="assets/branding/favicon.svg" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+	<!-- Preloader: Arc Reactor -->
+	<div id="preloader" aria-hidden="true">
+		<div class="reactor">
+			<div class="reactor-core"></div>
+			<div class="reactor-ring ring-1"></div>
+			<div class="reactor-ring ring-2"></div>
+			<div class="reactor-ring ring-3"></div>
+			<div class="reactor-glow"></div>
+		</div>
+		<p class="boot-seq">Инициализация J.A.R.V.I.S // Загрузка модулей...</p>
+	</div>
+
+	<header class="site-header">
+		<div class="container header-inner">
+			<a class="brand" href="#home" aria-label="JarvisProduction">
+				<svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+					<defs>
+						<linearGradient id="g" x1="0" x2="1" y1="1" y2="0">
+							<stop offset="0%" stop-color="#00e5ff" />
+							<stop offset="100%" stop-color="#14f1d9" />
+						</linearGradient>
+					</defs>
+					<circle cx="32" cy="32" r="28" fill="none" stroke="url(#g)" stroke-width="3" />
+					<polygon points="32,10 44,32 32,54 20,32" fill="url(#g)" opacity="0.9" />
+				</svg>
+				<span class="brand-text">JarvisProduction</span>
+			</a>
+			<nav class="nav">
+				<a href="#about">О компании</a>
+				<a href="#services">Услуги</a>
+				<a href="#portfolio">Портфолио</a>
+				<a href="#contact" class="cta">Связаться</a>
+			</nav>
+		</div>
+	</header>
+
+	<main id="home">
+		<section class="hero hud-grid">
+			<div class="container hero-inner">
+				<h1 class="glitch" data-text="JarvisProduction">JarvisProduction</h1>
+				<p class="subtitle">Один человек‑студия. Создаю программы, сайты и готовлю запуск производства печатных плат.</p>
+				<div class="hero-cta">
+					<a href="#portfolio" class="btn primary">Смотреть работы</a>
+					<a href="#services" class="btn ghost">Наши услуги</a>
+				</div>
+
+				<div class="hud-widgets">
+					<div class="widget" data-animate>
+						<span class="label">Фокус</span>
+						<strong>Реклама • Музыка • Презентации</strong>
+					</div>
+					<div class="widget" data-animate>
+						<span class="label">Технологии</span>
+						<strong>CGI • Motion • Interactive</strong>
+					</div>
+					<div class="widget" data-animate>
+						<span class="label">Подход</span>
+						<strong>Идея → Сториборд → Продакшн</strong>
+					</div>
+				</div>
+			</div>
+			<div class="parallax deco-circuits" aria-hidden="true"></div>
+		</section>
+
+		<section id="about" class="section about" data-animate>
+			<div class="container two-col">
+				<div>
+					<h2>О компании</h2>
+					<p>JarvisProduction — соло‑проект, вдохновленный инженерией Тони Старка. Я совмещаю разработку софта, веб‑продакшн и инженерный подход. Ближайшая цель — собственное производство печатных плат.</p>
+					<ul class="bullets">
+						<li>Приложения и утилиты под ваши задачи</li>
+						<li>Современные веб‑сайты и интерактив</li>
+						<li>Печатные платы: от идеи до сборки (скоро)</li>
+					</ul>
+				</div>
+				<div class="about-reactor">
+					<div class="reactor mini">
+						<div class="reactor-core"></div>
+						<div class="reactor-ring ring-1"></div>
+						<div class="reactor-ring ring-2"></div>
+						<div class="reactor-ring ring-3"></div>
+						<div class="reactor-glow"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="services" class="section services hud-grid" data-animate>
+			<div class="container">
+				<h2>Услуги</h2>
+				<div class="cards">
+					<article class="card">
+						<h3>Программирование</h3>
+						<p>Десктопные и утилитарные приложения. Архитектура, интеграции, оптимизация.</p>
+					</article>
+					<article class="card">
+						<h3>Веб‑разработка</h3>
+						<p>Сайты и веб‑приложения. Быстро, адаптивно, с акцентом на UX и скорость.</p>
+					</article>
+					<article class="card">
+						<h3>Печатные платы (скоро)</h3>
+						<p>Проектирование, трассировка и производство PCB. Прототипы и малые серии.</p>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section id="portfolio" class="section portfolio" data-animate>
+			<div class="container">
+				<h2>Портфолио</h2>
+				<p class="subtitle" style="margin-top:4px">Внимание: примеры ниже демонстрационные — это не настоящие работы.</p>
+				<div class="grid">
+					<a class="tile" href="#" aria-label="Проект 1">
+						<div class="tile-media" style="--img:url('https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop');"></div>
+						<div class="tile-caption">HUD Interface</div>
+					</a>
+					<a class="tile" href="#" aria-label="Проект 2">
+						<div class="tile-media" style="--img:url('https://images.unsplash.com/photo-1521489871821-9c6947f2c8b3?q=80&w=1600&auto=format&fit=crop');"></div>
+						<div class="tile-caption">Cinematic Shot</div>
+					</a>
+					<a class="tile" href="#" aria-label="Проект 3">
+						<div class="tile-media" style="--img:url('https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop');"></div>
+						<div class="tile-caption">Tech Branding</div>
+					</a>
+					<a class="tile" href="#" aria-label="Проект 4">
+						<div class="tile-media" style="--img:url('https://images.unsplash.com/photo-1521489871821-9c6947f2c8b3?q=80&w=1600&auto=format&fit=crop');"></div>
+						<div class="tile-caption">Product Film</div>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact" class="section contact hud-grid" data-animate>
+			<div class="container two-col">
+				<div>
+					<h2>Связаться</h2>
+					<p>Расскажите о задаче — предложим концепт и смету. Ответим в течение 1 рабочего дня.</p>
+					<ul class="contacts">
+						<li>Telegram: <a class="btn ghost small" href="https://t.me/kuzmanx" target="_blank" rel="noopener">@kuzmanx</a></li>
+						<li>Discord: <a class="btn ghost small" href="https://discord.com/users/jarvisproductio" target="_blank" rel="noopener">jarvisproductio</a></li>
+						<li>GitHub: <a class="btn ghost small" href="https://github.com/Jarvis-Production" target="_blank" rel="noopener">Jarvis-Production</a></li>
+						<li>Steam: <a class="btn ghost small" href="https://steamcommunity.com/profiles/76561199491126116" target="_blank" rel="noopener">76561199491126116 (J.P | absolute Griz)</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container footer-inner">
+			<p>© <span id="year"></span> JarvisProduction. Made with <span class="reactor-dot"></span> energy.</p>
+			<div class="socials">
+				<a class="btn ghost small" href="https://t.me/kuzmanx" target="_blank" rel="noopener" aria-label="Telegram">Telegram</a>
+				<a class="btn ghost small" href="https://discord.com/users/jarvisproductio" target="_blank" rel="noopener" aria-label="Discord">Discord</a>
+				<a class="btn ghost small" href="https://github.com/Jarvis-Production" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+				<a class="btn ghost small" href="https://steamcommunity.com/profiles/76561199491126116" target="_blank" rel="noopener" aria-label="Steam">Steam</a>
+			</div>
+		</div>
+	</footer>
+
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
